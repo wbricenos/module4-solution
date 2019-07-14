@@ -38,9 +38,7 @@ WARNING!!! WARNING!!!
     var firstLetter = names[name].charAt(0);    
     if (firstLetter.toLowerCase() == 'j') {
       byeSpeaker.speak(names[name]);
-    } else {
-      helloSpeaker.speak(names[name]);
-    }
+    } else { helloSpeaker.speak(names[name]);  }
   }
 })();
 
